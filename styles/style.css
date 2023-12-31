@@ -1,0 +1,603 @@
+/*********************** General ***********************/
+/* font-family: 'Inria Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+}
+
+header img{
+    width: 315px;
+    height: 90px;
+    margin: 1rem 0rem ;
+}
+
+.navbar li{
+    font-family: 'Inria Sans', sans-serif;
+    margin: 1rem 2rem ;
+}
+
+.navbar li a{ 
+    color: black;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+}
+
+.foot{
+    width: 100%;
+    display: flex;
+    background-color: #5271FF;
+    color: white;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+}
+
+@media (max-width: 929px){
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.foot a{
+    text-decoration: none;
+    color: white
+}
+
+.fc, .ig, .mail, .msj{
+    display: flex;
+}
+
+.ig img{
+    margin-right: 2px;
+}
+
+.mail img{
+    margin-left: 22px;
+}
+
+.seguinos{
+    margin: 15px 0px 0px 25px;
+}
+
+@media (max-width: 929px){
+    .seguinos{
+        margin: 1rem 0rem 0rem 0rem;
+    }
+}
+
+.image{
+    margin: 1.2rem 0rem;
+}
+
+.comunicate{
+    margin: 15px 25px 0px 0px;
+}
+
+@media (max-width: 929px){
+    .comunicate{
+        margin: 0rem 0rem 1rem 0rem;
+    }
+}
+
+.cp{
+    padding-left: 21px;
+}
+
+.comunicate img{
+    margin-right: 2px;
+}
+
+h2{
+    color: #5271FF;
+    font-size: 4rem;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+h3{
+    font-family: 'Inria Sans', sans-serif;
+    color: #5271FF;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.intro h2{
+    padding: 0rem 0rem 0.3rem 16.3rem;
+}
+
+.intro p{
+    font-size: 1.5rem;
+    padding: 0rem 16.3rem;
+}
+
+@media (max-width: 1249px) {
+    .intro h2{
+        padding-left: 10rem;
+    }
+
+    .intro p{
+        padding: 0rem 10rem; 
+    }
+}
+
+@media (max-width: 854px) {
+    .intro h2{
+        padding-left: 7rem;
+    }
+
+    .intro p{
+        padding: 0rem 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro h2{
+        padding-left: 3rem;
+        font-size: 3rem;
+    }
+
+    .intro p{
+        padding: 0rem 3rem; 
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .intro h2{
+        padding-left: 2rem;
+        font-size: 2rem;
+    }
+
+    .intro p{
+        padding: 0rem 2rem; 
+        font-size: 1.1rem;
+    }
+}
+
+.portada{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/*********************** css de index.html ***********************/
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    margin: 2rem 0rem;
+}
+
+.imagenes img{
+    width: 20%;
+    border-radius: 1rem;
+}
+
+@media (max-width: 1249px){
+    .imagenes{
+        flex-wrap: wrap;
+    }
+
+    .imagenes img {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px){
+    .imagenes{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenes img{
+        width: 60%;
+    }
+}
+
+hr{
+    width: 81%;
+    margin: 0 auto;
+    border: 1px solid #000000b0;
+}
+
+.nuestros{
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
+
+@media (max-width: 1124px){
+    .nuestros h2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nuestros h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .nuestros h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 671px) {
+    .nuestros h2{
+        font-size: 2rem;
+    }
+}
+
+.prodserv{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1249px){
+    .prodserv{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px){
+    .prodserv{
+        flex-direction:column;
+        align-items: center;
+    }
+}
+
+.cards{
+    font-family: 'Inria Sans', sans-serif;
+    width: 315px;
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+}
+
+.cards h3{
+    font-size: 2rem;
+    background-color: #5271FF;
+    color: white;
+    padding: 9px 0px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.cards h4{
+    font-size: 1.11rem;
+    font-weight: normal;
+    background-color: #5271FF;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.cards ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.cards ul li{
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    background-repeat: no-repeat;
+    background-size: 0.90rem;
+    background-position: 25px 22px;
+    list-style-image: url("../assets/img/Bullet.png");
+    list-style-position: inside;
+}
+
+.cards button{
+    margin: 30px 0px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #888888;
+    color: white;
+}
+
+.cont{
+    text-align: center;
+}
+
+.cont h2{
+    margin: 0;
+    padding-bottom: 0.5rem;
+}
+
+.cont a{
+    display: inline-block;
+}
+
+.cont a h3{
+    text-decoration: underline;
+    margin: 0;
+}
+
+@media (max-width: 710px){
+    .cont h3{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .cont h3{
+        font-size: 1.5rem;
+    }
+}
+
+/*********************** css de empresa.html ***********************/
+
+.esferas{
+    font-family: 'Inria Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.fila1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.esfera1, .esfera2 , .esfera3 , .esfera4 , .esfera5{
+    width: 220px;
+    height: 220px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esfera1{
+    background-color: #1A1D57;
+}
+.esfera2{
+    background-color: #5271FF;
+}
+.esfera3{
+    background-color: #ABB7F4;
+}
+.esfera4{
+    background-color: #6571A2;
+}
+.esfera5{
+    background-color: #768DF6;
+}
+
+@media (max-width: 768px){
+    .esferas{
+        font-size: 1.3rem;
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+    width: 190px;
+    height: 190px;
+    }
+}
+
+@media (max-width: 682px){
+    .esferas{
+        font-size: 1.2rem;
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+    width: 175px;
+    height: 175px;
+    }
+}
+
+@media (max-width: 618px){
+    .esferas{
+        margin-top: 0;
+    }
+
+    .fila1, .fila2{
+        flex-direction: column;
+        gap: 0px
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+        margin-top: 30px;
+    }
+}
+/*********************** css de productos_servicios.html ***********************/
+
+.nuestros2{
+    text-align: center;
+}
+
+.prodserv2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 2rem 0rem;
+}
+
+.cards2{
+    width: 311px;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+}
+
+.cards2 img{
+    width: 311px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.cards2 p{
+    font-size: 1.2rem;
+    margin: 4px 10px;
+}
+
+.con{
+    text-align: center;
+}
+
+.con h2{
+    text-decoration: underline;
+    padding: 1rem 0rem 1.5rem 0rem;
+    margin: 0;
+}
+
+.con h3{
+margin: 0;
+}
+
+.con a{
+    display: inline-block;
+}
+
+/*********************** css de nuestro_trabajo.html ***********************/
+
+.grid-cont{
+    display: grid;
+    width: 100%;
+    height: 145vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "s1 s2 s2 s2"
+    "s1 s2 s2 s2"
+    "s1 s3 s3 s3"
+    "s1 s3 s3 s3"
+}
+
+.sect1{
+    grid-area: s1;
+    background: white;
+    margin: 0rem 3rem 9rem 10rem;
+    padding: 0.3rem 1.2rem 0rem 1.2rem;
+    font-size: 1.15rem;
+}
+
+.sect2{
+    grid-area: s2;
+    margin: 0rem 0rem 1rem 5rem;
+    font-size: 1.5rem
+}
+
+.sect3{
+    grid-area: s3;
+    margin-left: 5rem;
+}
+
+.sect1 img{
+    margin: 0.2rem 0rem 1rem 0rem;
+    width: 100%;
+}
+
+.sect2 img{
+    margin: 0.2rem 1rem 0.2rem 0rem;
+}
+
+.sect3 img{
+    margin: 1rem
+}
+
+.chicas{
+    width: 100px;
+}
+
+.medianas{
+    width: 200px;
+}
+
+.grandes{
+    width: 280px;
+}
+
+.sub{
+    text-decoration: underline;
+}
+
+/*********************** css de contactanos.html ***********************/
+
+.grid-cont2{
+    display: grid;
+    width: 100%;
+    height: 60vh;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 165px 130px 1fr;
+    grid-template-areas: 
+    "sc1 sc4"
+    "sc2 sc4"
+    "sc3 sc4";
+}
+
+.sec1{
+    grid-area: sc1;
+    padding: 0rem 3rem 10rem 10rem;
+}
+
+.sec2{
+    grid-area: sc2;
+    padding: 0rem 3rem 0rem 10rem;
+}
+
+.sec3{
+    grid-area: sc3;
+    padding: 1rem 3rem 0rem 10rem;
+}
+
+.sec4{
+    grid-area: sc4;
+    background-color: white;
+    margin: 0rem 20rem 0rem 5rem;
+    padding: 0rem 3rem ;
+    border-radius: 1rem;
+}
+
+.sec1 div{
+    display: flex;
+    gap: 6px;
+}
+
+.bmail{
+    margin-left: 30px;
+}
+
+.sec2 div{
+    display: flex;
+}
+
+.sec2 div img{
+    padding: 7px;
+}
