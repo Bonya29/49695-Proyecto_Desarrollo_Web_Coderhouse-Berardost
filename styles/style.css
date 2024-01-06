@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #e7e7e7;
+    background-color: #f8f8f8;
 }
 
 header{
@@ -17,9 +17,16 @@ header{
 }
 
 header img{
-    width: 315px;
+    width: 370px;
     height: 90px;
-    margin: 1rem 0rem ;
+    margin: 1rem 0rem;
+}
+
+@media (max-width: 550px) {
+    header img{
+        width: 300px;
+        height: 73px;
+    }
 }
 
 .navbar li{
@@ -193,6 +200,7 @@ h3{
 .imagenes img{
     width: 20%;
     border-radius: 1rem;
+    box-shadow: -3px 3px 20px #000000b0;
 }
 
 @media (max-width: 1249px){
@@ -277,6 +285,7 @@ hr{
     text-align: center;
     background-color: #D9D9D9;
     border-radius: 1rem;
+    box-shadow: -3px 3px 20px #000000b0;
 }
 
 .cards h3{
@@ -383,6 +392,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: -5.5px 10px 20px #000000b0;
 }
 
 .esfera1{
@@ -443,6 +453,18 @@ hr{
     text-align: center;
 }
 
+@media (max-width: 710px) {
+    .nuestros2 h2{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .nuestros h2{
+        font-size: 2rem;
+    }
+}
+
 .prodserv2{
     display: flex;
     justify-content: center;
@@ -450,10 +472,17 @@ hr{
     margin: 2rem 0rem;
 }
 
+@media (max-width: 1200px) {
+    .prodserv2{
+        flex-wrap: wrap;
+    }
+}
+
 .cards2{
     width: 311px;
     background-color: #D9D9D9;
     border-radius: 1rem;
+    box-shadow: -2px 2px 20px #000000b0;
 }
 
 .cards2 img{
@@ -477,8 +506,26 @@ hr{
     margin: 0;
 }
 
+@media (max-width: 565px) {
+    .con h2{
+        font-size: 3rem;
+    }
+}
+
 .con h3{
 margin: 0;
+}
+
+@media (max-width: 710px) {
+    .con h3{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 565px) {
+    .con h3{
+        font-size: 1.5rem;
+    }
 }
 
 .con a{
@@ -553,8 +600,8 @@ margin: 0;
 .grid-cont2{
     display: grid;
     width: 100%;
-    height: 68vh;
-    grid-template-columns: 30% 70%;
+    height: 620px;
+    grid-template-columns: 580px 64%;
     grid-template-rows: 165px 130px 1fr;
     grid-template-areas: 
     "sc1 sc4"
@@ -564,25 +611,26 @@ margin: 0;
 
 .sec1{
     grid-area: sc1;
-    padding: 0rem 3rem 10rem 10rem;
+    padding-left: 8rem;
 }
 
 .sec2{
     grid-area: sc2;
-    padding: 0rem 3rem 0rem 10rem;
+    padding-left: 8rem;
 }
 
 .sec3{
     grid-area: sc3;
-    padding: 1rem 3rem 0rem 10rem;
+    padding: 1rem 0rem 0rem 8rem;
 }
 
 .sec4{
     grid-area: sc4;
     background-color: white;
-    margin: 0rem 20rem 3.25rem 5rem;
+    width: 80%;
     padding: 0rem 3rem ;
     border-radius: 1rem;
+    box-shadow: -2px 2px 20px #000000b0;
 }
 
 .sec1 div{
@@ -600,4 +648,38 @@ margin: 0;
 
 .sec2 div img{
     padding: 7px;
+}
+
+@media (max-width: 1414px) {
+    .grid-cont2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .sec1{
+        padding: 0;
+    }
+
+    .sec2, .sec3{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .sec4{
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 554px) {
+    .sec1 h2, .sec2 h2, .sec4 h2{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 433px) {
+    .sec1 h2, .sec2 h2, .sec4 h2{
+        font-size: 3rem;
+    }
 }
