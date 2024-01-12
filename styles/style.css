@@ -537,33 +537,43 @@ margin: 0;
 .grid-cont{
     display: grid;
     width: 100%;
-    height: 145vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    height: auto;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: repeat(2, 770px) 550px;
     grid-template-areas:
-    "s1 s2 s2 s2"
-    "s1 s2 s2 s2"
-    "s1 s3 s3 s3"
-    "s1 s3 s3 s3"
+    "s1 s2 ."
+    "s1 s2 ."
+    "s1 s3 s3"
 }
 
 .sect1{
     grid-area: s1;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 275px;
+    height: auto;
     background: white;
-    margin: 0rem 3rem 9rem 10rem;
     padding: 0.3rem 1.2rem 0rem 1.2rem;
     font-size: 1.15rem;
+    box-shadow: -2px 2px 20px #000000b0;
+    border-radius: 1rem;
 }
 
 .sect2{
     grid-area: s2;
-    margin: 0rem 0rem 1rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 1.5rem
 }
 
 .sect3{
     grid-area: s3;
-    margin-left: 5rem;
+}
+
+.sect1 h2{
+    text-align: center;
 }
 
 .sect1 img{
@@ -572,11 +582,19 @@ margin: 0;
 }
 
 .sect2 img{
+    width: 550px !important; 
+    height: 400px;
     margin: 0.2rem 1rem 0.2rem 0rem;
+    border-radius: 1rem;
+}
+
+.carousel{
+    width: 550px; 
+    height: 400px;
 }
 
 .sect3 img{
-    margin: 1rem
+    margin: 0.9rem
 }
 
 .chicas{
@@ -585,14 +603,24 @@ margin: 0;
 
 .medianas{
     width: 200px;
+    height: 95px;
 }
 
 .grandes{
     width: 280px;
+    height: 84px;
 }
 
-.sub{
+.subnot{
     text-decoration: underline;
+}
+
+.subins{
+    margin: 1.5rem 0rem 1rem 0rem;
+}
+
+.subins1{
+    margin-bottom: 1rem;
 }
 
 /*********************** css de contactanos.html ***********************/
