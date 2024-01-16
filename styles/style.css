@@ -729,7 +729,7 @@ margin: 0;
 .grid-cont2{
     display: grid;
     width: 100%;
-    height: 620px;
+    height: auto;
     grid-template-columns: 580px 64%;
     grid-template-rows: 165px 130px 1fr;
     grid-template-areas: 
