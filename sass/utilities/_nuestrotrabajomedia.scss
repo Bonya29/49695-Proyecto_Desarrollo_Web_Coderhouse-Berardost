@@ -1,0 +1,95 @@
+@media (max-width: 1199px) {
+    .grid-cont{
+        grid-template-columns: 30% 70%;
+        grid-template-areas:
+        "s1 s2"
+        "s3 s3"
+    }
+}
+
+@media (max-width: 999px) {
+    .grid-cont{
+        grid-template-columns: 40% 60%;
+    }
+    .sect3 h2{
+        font-size: 3.5rem;
+    }
+    .subins, .subins1{
+        font-size: 1.25rem;
+    }
+    .sect2 img, .carousel{
+        width: 500px !important; 
+        height: 350px;
+    }
+}
+
+@media (max-width: 849px) {
+    .grid-cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .sect2{
+        order: -1;
+    }
+    .sect1{
+        margin: auto;
+        margin-top: 2rem;
+        width: 450px;
+    }
+    .sect2 h2, .sect1 h2{
+        font-size: 3.5rem;
+    }
+    .sect3 h2{
+        font-size: 3rem;
+    }
+    .subins, .subins1{
+        font-size: 1.15rem;
+    }
+    .sect2 img, .carousel{
+        width: 450px !important; 
+        height: 300px;
+    }
+}
+
+@media (max-width: 519px) {
+    .sect2 img, .carousel{
+        width: 400px !important; 
+        height: 250px;
+    }
+    .sect1{
+        width: 400px;
+    }
+    .sect3 h2{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .sect2 img, .carousel{
+        width: 300px !important; 
+        height: 200px;
+    }
+    .sect1{
+        width: 300px;
+    }
+    .sect1 h2, .sect2 h2{
+        font-size: 2.5rem;
+    }
+    .sect3 h2{
+        font-size: 2rem;
+    }
+    .subins, .subins1, .subnot{
+        font-size: 1rem;
+    }
+    .chicas{
+        width: 75px;
+    }
+    .medianas{
+        width: 125px;
+        height: 60px;
+    }
+    .grandes{
+        width: 200px;
+        height: 65px;
+    }
+}

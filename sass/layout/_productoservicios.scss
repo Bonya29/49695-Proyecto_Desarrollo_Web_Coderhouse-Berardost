@@ -1,0 +1,41 @@
+.nuestros2{
+    text-align: center;
+}
+
+.prodserv2{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 2rem 0rem;
+}
+
+.cards2{
+    width: 311px;
+    background-color: #D9D9D9;
+    border-radius: 1rem;
+    box-shadow: -2px 2px 20px #000000b0;
+    img{
+        width: 311px;
+        border-top-right-radius: 1rem;
+        border-top-left-radius: 1rem;
+    }
+    p{
+        font-size: 1.2rem;
+        margin: 4px 10px;
+    }
+}
+
+.con{
+    text-align: center;
+    h2{
+        text-decoration: underline;
+        padding: 1rem 0rem 1.5rem 0rem;
+        margin: 0;
+    }
+    h3{
+        margin: 0;
+    }
+    a{
+        display: inline-block;
+    }
+}

@@ -1,0 +1,18 @@
+@import "./base/reset";
+@import "./base/tipografias";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/index";
+@import "./layout/empresa";
+@import "./layout/productoservicios";
+@import "./layout/nuestrotrabajo";
+@import "./layout/contactanos";
+
+@import "./utilities/headermedia";
+@import "./utilities/footermedia";
+@import "./utilities/indexmedia";
+@import "./utilities/empresamedia";
+@import "./utilities/productoserviciosmedia";
+@import "./utilities/nuestrotrabajomedia";
+@import "./utilities/contactanosmedia";

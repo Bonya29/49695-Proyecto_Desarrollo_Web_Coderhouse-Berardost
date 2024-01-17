@@ -1,0 +1,43 @@
+.foot{
+    width: 100%;
+    display: flex;
+    background-color: #5271FF;
+    color: white;
+    font-size: 1rem;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    a{
+        text-decoration: none;
+        color: white
+    }
+}
+
+.image{
+    margin: 1.2rem 0rem;
+}
+
+.fc, .ig, .mail, .msj{
+    display: flex;
+}
+
+.ig img{
+    margin-right: 2px;
+}
+.mail img{
+    margin-left: 22px;
+}
+
+.seguinos{
+    margin: 15px 0px 0px 25px;
+}
+
+.comunicate{
+    margin: 15px 25px 0px 0px;
+    img{
+        margin-right: 2px;
+    }
+}
+
+.cp{
+    padding-left: 21px;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 1414px) {
+    .grid-cont2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .sec4{
+        order: -1;
+    }
+
+    .sec1{
+        padding: 0;
+        margin-top: 1rem;
+    }
+
+    .sec2, .sec3{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    .sec4{
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width: 554px) {
+    .sec1 h2, .sec2 h2, .sec4 h2{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 433px) {
+    .sec1 h2, .sec2 h2, .sec4 h2{
+        font-size: 3rem;
+    }
+}

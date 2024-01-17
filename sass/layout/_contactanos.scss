@@ -1,0 +1,49 @@
+.grid-cont2{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 580px 64%;
+    grid-template-rows: 165px 130px 1fr;
+    grid-template-areas: 
+    "sc1 sc4"
+    "sc2 sc4"
+    "sc3 sc4";
+}
+
+.sec1{
+    grid-area: sc1;
+    padding-left: 8rem;
+    div{
+        display: flex;
+        gap: 6px;
+    }
+}
+
+.sec2{
+    grid-area: sc2;
+    padding-left: 8rem;
+    div{
+        display: flex;
+        img{
+            padding: 7px;
+        }
+    }
+}
+
+.sec3{
+    grid-area: sc3;
+    padding: 1rem 0rem 0rem 8rem;
+}
+
+.sec4{
+    grid-area: sc4;
+    background-color: white;
+    width: 80%;
+    padding: 0rem 3rem ;
+    border-radius: 1rem;
+    box-shadow: -2px 2px 20px #000000b0;
+}
+
+.bmail{
+    margin-left: 30px;
+}

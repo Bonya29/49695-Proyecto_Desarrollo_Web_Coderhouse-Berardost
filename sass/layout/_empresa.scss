@@ -1,0 +1,47 @@
+.esferas{
+    font-family: 'Inria Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3.5rem;
+}
+
+.fila1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.esfera1, .esfera2 , .esfera3 , .esfera4 , .esfera5{
+    width: 220px;
+    height: 220px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -5.5px 10px 20px #000000b0;
+}
+
+.esfera1{
+    background-color: #1A1D57;
+}
+.esfera2{
+    background-color: #5271FF;
+}
+.esfera3{
+    background-color: #ABB7F4;
+}
+.esfera4{
+    background-color: #6571A2;
+}
+.esfera5{
+    background-color: #768DF6;
+}

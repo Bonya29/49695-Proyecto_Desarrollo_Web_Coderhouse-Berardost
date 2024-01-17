@@ -1,0 +1,36 @@
+@media (max-width: 768px){
+    .esferas{
+        font-size: 1.3rem;
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+    width: 190px;
+    height: 190px;
+    }
+}
+
+@media (max-width: 682px){
+    .esferas{
+        font-size: 1.2rem;
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+    width: 175px;
+    height: 175px;
+    }
+}
+
+@media (max-width: 618px){
+    .esferas{
+        margin-top: 0;
+    }
+
+    .fila1, .fila2{
+        flex-direction: column;
+        gap: 0px
+    }
+
+    .esfera1, .esfera2, .esfera3, .esfera4, .esfera5{
+        margin-top: 30px;
+    }
+}
