@@ -1,18 +1,10 @@
 .esferas{
-    font-family: 'Inria Sans', sans-serif;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 3.5rem;
 }
 
-.fila1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-
-.fila2{
+.fila1, .fila2{
     display: flex;
     justify-content: center;
     align-items: center;

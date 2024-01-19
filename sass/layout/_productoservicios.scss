@@ -3,9 +3,7 @@
 }
 
 .prodserv2{
-    display: flex;
-    justify-content: center;
-    gap: 90px;
+    @extend .prodserv;
     margin: 2rem 0rem;
 }
 
