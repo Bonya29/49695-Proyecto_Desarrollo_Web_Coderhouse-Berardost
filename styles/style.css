@@ -303,20 +303,20 @@ header {
   display: grid;
   width: 100%;
   height: auto;
-  grid-template-columns: 580px 64%;
-  grid-template-rows: 165px 130px 1fr;
+  grid-template-columns: 600px 64%;
+  grid-template-rows: 165px 165px 1fr;
   grid-template-areas: "sc1 sc4" "sc2 sc4" "sc3 sc4"; }
 
 .sec1 {
   grid-area: sc1;
-  padding-left: 8rem; }
+  padding: 1rem 0rem 0rem 8rem; }
   .sec1 div {
     display: flex;
     gap: 6px; }
 
 .sec2 {
   grid-area: sc2;
-  padding-left: 8rem; }
+  padding: 1rem 0rem 0rem 8rem; }
   .sec2 div {
     display: flex; }
     .sec2 div img {
@@ -324,13 +324,13 @@ header {
 
 .sec3 {
   grid-area: sc3;
-  padding: 1rem 0rem 0rem 8rem; }
+  padding-left: 2.5rem; }
 
 .sec4 {
   grid-area: sc4;
   background-color: white;
   width: 80%;
-  padding: 0rem 3rem;
+  padding: 1rem 3rem;
   border-radius: 1rem;
   box-shadow: -2px 2px 20px #000000b0; }
 
@@ -364,6 +364,10 @@ header {
   .intro p {
     padding: 0rem 2rem;
     font-size: 1.1rem; } }
+
+@media (max-width: 425px) {
+  .navbar li a {
+    font-size: 1.5rem; } }
 
 @media (max-width: 550px) {
   header img {
@@ -561,8 +565,14 @@ header {
 
 @media (max-width: 554px) {
   .sec1 h2, .sec2 h2, .sec4 h2 {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; }
+  iframe {
+    width: 420px;
+    height: 320px; } }
 
 @media (max-width: 433px) {
   .sec1 h2, .sec2 h2, .sec4 h2 {
-    font-size: 3rem; } }
+    font-size: 2.6rem; }
+  iframe {
+    width: 315px;
+    height: 215px; } }

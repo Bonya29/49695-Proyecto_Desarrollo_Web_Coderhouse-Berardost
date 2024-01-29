@@ -29,10 +29,18 @@
     .sec1 h2, .sec2 h2, .sec4 h2{
         font-size: 3.5rem;
     }
+    iframe{
+        width: 420px;
+        height: 320px;
+    }
 }
 
 @media (max-width: 433px) {
     .sec1 h2, .sec2 h2, .sec4 h2{
-        font-size: 3rem;
+        font-size: 2.6rem;
+    }
+    iframe{
+        width: 315px;
+        height: 215px;
     }
 }
