@@ -3,7 +3,7 @@
 }
 
 h2{
-    color: #5271FF;
+    color: $title-color;
     font-size: 4rem;
     font-weight: bold;
 }
@@ -13,7 +13,7 @@ p{
 }
 
 h3{
-    color: #5271FF;
+    color: $title-color;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;

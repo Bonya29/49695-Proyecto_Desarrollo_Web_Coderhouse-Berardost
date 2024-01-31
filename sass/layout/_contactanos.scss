@@ -37,11 +37,11 @@
 
 .sec4{
     grid-area: sc4;
-    background-color: white;
+    background-color: $a0;
     width: 80%;
     padding: 1rem 3rem ;
     border-radius: 1rem;
-    box-shadow: -2px 2px 20px #000000b0;
+    box-shadow: -2px 2px 20px $shadow-color;
 }
 
 .bmail{

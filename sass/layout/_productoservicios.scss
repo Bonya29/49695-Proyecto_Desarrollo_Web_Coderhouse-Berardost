@@ -9,9 +9,9 @@
 
 .cards2{
     width: 311px;
-    background-color: #D9D9D9;
+    background-color: $cards-bc;
     border-radius: 1rem;
-    box-shadow: -2px 2px 20px #000000b0;
+    box-shadow: -2px 2px 20px $shadow-color;
     img{
         width: 311px;
         border-top-right-radius: 1rem;

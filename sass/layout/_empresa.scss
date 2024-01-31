@@ -14,26 +14,26 @@
 .esfera1, .esfera2 , .esfera3 , .esfera4 , .esfera5{
     width: 220px;
     height: 220px;
-    color: white;
+    color:$a0;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: -5.5px 10px 20px #000000b0;
+    box-shadow: -5.5px 10px 20px $shadow-color;
 }
 
 .esfera1{
-    background-color: #1A1D57;
+    background-color: $esf1-bc;
 }
 .esfera2{
-    background-color: #5271FF;
+    background-color: $esf2-bc;
 }
 .esfera3{
-    background-color: #ABB7F4;
+    background-color: $esf3-bc;
 }
 .esfera4{
-    background-color: #6571A2;
+    background-color: $esf4-bc;
 }
 .esfera5{
-    background-color: #768DF6;
+    background-color: $esf5-bc;
 }

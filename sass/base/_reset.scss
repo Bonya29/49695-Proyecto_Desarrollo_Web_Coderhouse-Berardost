@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #f8f8f8;
+    background-color: $body-bc;
 }
 
 .portada{
@@ -16,5 +16,5 @@ body{
 hr{
     width: 81%;
     margin: 0 auto;
-    border: 1px solid #000000b0;
+    border: 1px solid $shadow-color;
 }

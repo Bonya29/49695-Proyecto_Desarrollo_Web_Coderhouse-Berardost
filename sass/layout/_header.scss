@@ -1,6 +1,6 @@
 header{
     text-align: center;
-    background-color: white;
+    background-color: $a0;
     img{
         width: 370px;
         height: 90px;
@@ -11,7 +11,7 @@ header{
 .navbar li{
     margin: 1rem 2rem ;
     a{
-        color: black;
+        color: $a1;
         text-decoration: none;
         font-size: 1.8rem;
         &:hover{
